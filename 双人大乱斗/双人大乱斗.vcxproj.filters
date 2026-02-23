@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{6e994932-26ec-4285-ab35-96e90212d864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{b3342502-b11c-4ed5-9c98-1ccba8ea6204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\bullet">
+      <UniqueIdentifier>{4785a881-4005-4091-a36f-ae5c15b07e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\button">
+      <UniqueIdentifier>{266c702a-600f-4f44-a8c8-1d1f219cae06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_scene.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="atlas.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="selector_scene.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="peashooter_player.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sunflower_player.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pea_bullet.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sun_bullet.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sun_bullet_ex.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="status_bar.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamedata.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamedata.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="newbutton.h">
+      <Filter>头文件\button</Filter>
+    </ClCompile>
+    <ClCompile Include="continuebutton.h">
+      <Filter>头文件\button</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>头文件\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="selector_scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="atlas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="peashooter_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="sunflower_player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="player_id.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="pea_bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="sun_bullet.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="sun_bullet_ex.h">
+      <Filter>头文件\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="status_bar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>头文件\button</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
